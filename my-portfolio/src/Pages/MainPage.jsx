@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar.jsx'
-import Hero from '../Components/Hero/Hero.jsx'
+import MainContent from '../Components/MainContent/MainContent'
+import Navbar from '../Components/Navbar/Navbar'
 
 const MainPage = () => {
     return (
         <div>
             <Navbar/>
-            <Hero/>
+            <MainContent/>
         </div>
     )
 }
