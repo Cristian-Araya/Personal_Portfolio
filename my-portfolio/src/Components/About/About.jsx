@@ -5,20 +5,21 @@ import styled from 'styled-components'
 const About = () => {
 
     const AboutStyled = styled.div`
-    border-color: white;
-    border-width: 10px;
     padding-top:5em;
     height:100vh;
+    
     `;
 
     return (
-        <AboutStyled>
-                <div className="container border border-warning">
-                    <div className="text-white">
-                        hola
+        <div id="about">
+            <AboutStyled>
+                    <div className="container">
+                        <div className="text-white">
+                            About
+                        </div>
                     </div>
-                </div>
-        </AboutStyled>
+            </AboutStyled>
+        </div>
     )
 }
 

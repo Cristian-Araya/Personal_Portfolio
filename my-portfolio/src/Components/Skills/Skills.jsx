@@ -6,12 +6,17 @@ const Skills = () => {
 
     const SkillsStyled = styled.div`
      height:100vh;
+     
     `;
 
     return (
+        <div id="skills">    
         <SkillsStyled>
-            b
+            <div className="container text-white">
+                skills
+            </div>
         </SkillsStyled>
+        </div>
     )
 }
 

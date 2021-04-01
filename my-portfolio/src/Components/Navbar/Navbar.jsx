@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from "react-scroll";
 
 const Navbar = () => {
     const NavbarStyled = styled.div`
@@ -20,18 +21,44 @@ const Navbar = () => {
     return (
         <NavbarStyled>
             <nav className="navbar fixed-top navbar-expand-lg bg-dark border-bottom">
-                <div className="container">
-                    <span className="navbar-brand titulo neon">Navbar</span>     
+                <div className="container">  
                     <div className="collapse navbar-collapse justify-content-center " id="navbarNav">
                         <ul className="navbar-nav p-2">
                             <li className="nav-item ">
-                                <a className="nav-link neon px-4" href="http://localhost:3000/">Home <span className="sr-only">(current)</span></a>
+                                <Link
+                                activeClass="active"
+                                to="about"
+                                smooth={true}
+                                spy={true}
+                                offset={-70}
+                                duration={500}
+                                >
+                                   <span className="neon px-3">About</span>
+                                </Link>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link neon px-4" href="http://localhost:3000/">Skills<span className="sr-only">(current)</span></a>
+                            <Link
+                                activeClass="active"
+                                to="skills"
+                                smooth={true}
+                                spy={true}
+                                offset={-58}
+                                duration={500}
+                                >
+                                    <span className="neon px-3">Skills</span>
+                                </Link>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link neon px-4" href="http://localhost:3000/">Portfolio <span className="sr-only">(current)</span></a>
+                            <Link
+                                activeClass="active"
+                                to="portfolio"
+                                smooth={true}
+                                spy={true}
+                                offset={-58}
+                                duration={500}
+                                >
+                                    <span className="neon px-3">Portfolio</span>
+                                </Link>
                             </li>
                         </ul>
                     </div>
