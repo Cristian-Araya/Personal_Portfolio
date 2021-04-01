@@ -1,26 +1,26 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, {useState,useEffect} from 'react'
 import {Link} from "react-scroll";
+import './navbar.css'
+
 
 const Navbar = () => {
-    const NavbarStyled = styled.div`
-    background-color: #161b22 !important;
-    .neon{
-        color: #ffead6;
-    }
-    @media (max-width: 992px){
-        .titulo{
-            display:none;
-        }
-        a{
-            padding: 6px;
-        }
-    };
-    `;
 
+    useEffect(()=>{
+    }, []);
+
+    const [navbar,setNavbar] = useState(false);
+    const changeBackground = () => {
+        if(window.scrollY >= 57){
+            setNavbar(true)
+        }
+        else{
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll',changeBackground);
     return (
-        <NavbarStyled>
-            <nav className="navbar fixed-top navbar-expand-lg bg-dark border-bottom">
+            <nav className={navbar ? 'navbar fixed-top navbar-expand-lg false' : 'navbar sticky-top navbar-expand-lg activo border-bottom'}>
                 <div className="container">  
                     <div className="collapse navbar-collapse justify-content-center " id="navbarNav">
                         <ul className="navbar-nav p-2">
@@ -30,8 +30,8 @@ const Navbar = () => {
                                 to="about"
                                 smooth={true}
                                 spy={true}
-                                offset={-70}
-                                duration={500}
+                                offset={0}
+                                duration={700}
                                 >
                                    <span className="neon px-3">About</span>
                                 </Link>
@@ -42,8 +42,8 @@ const Navbar = () => {
                                 to="skills"
                                 smooth={true}
                                 spy={true}
-                                offset={-58}
-                                duration={500}
+                                offset={0}
+                                duration={700}
                                 >
                                     <span className="neon px-3">Skills</span>
                                 </Link>
@@ -54,8 +54,8 @@ const Navbar = () => {
                                 to="portfolio"
                                 smooth={true}
                                 spy={true}
-                                offset={-58}
-                                duration={500}
+                                offset={0}
+                                duration={700}
                                 >
                                     <span className="neon px-3">Portfolio</span>
                                 </Link>
@@ -67,7 +67,6 @@ const Navbar = () => {
                 </button>
                 </div>
             </nav>
-        </NavbarStyled>
     )
 }
 

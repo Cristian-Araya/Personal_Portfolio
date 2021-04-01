@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import styled from 'styled-components'
-import MainContent from '../Components/MainContent/MainContent';
+import Footer from '../Components/Footer/Footer';
+import About from '../Components/About/About';
+import Skills from '../Components/Skills/Skills';
+import Portfolio from '../Components/Portfolio/Portfolio';
 
 
 
@@ -17,10 +20,21 @@ const MainPage = () => {
     return (
         <MainStyled>
             <div className="section">
-                <div className="hiddenNavbar">
-                    <Navbar/>      
+                <div >
+                    <Navbar/>
                 </div>
-                    <MainContent/>
+                <div className="border border-danger">
+                    <About/>
+                </div> 
+                <div className="border border-warning">
+                    <Skills/>
+                </div> 
+                <div className="border border-success">
+                    <Portfolio/>
+                </div>
+                <div>
+                    <Footer/>    
+                </div>    
             </div>
         </MainStyled>
     )

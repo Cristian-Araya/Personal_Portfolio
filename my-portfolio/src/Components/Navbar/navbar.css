@@ -1,0 +1,27 @@
+.activo{  
+    background-color: #343a40 !important;
+    height: 5em;
+}
+.active{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    
+}
+.false{
+    background-color: transparent !important;
+    height: 2em;;
+  }
+.neon{
+    color: #ffead6;
+}
+@media (max-width: 992px){
+    .titulo{
+        display:none;
+    }
+    a{
+        padding: 6px;
+    }
+};
