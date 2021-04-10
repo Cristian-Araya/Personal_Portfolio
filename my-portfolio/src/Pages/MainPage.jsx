@@ -8,14 +8,14 @@ import Portfolio from '../Components/Portfolio/Portfolio';
 
 
 
+const MainStyled = styled.div`
+ .section{
+    min-height:100vh;
+    background-color: #0d1117;
+ }
+`;
 const MainPage = () => {
 
-    const MainStyled = styled.div`
-     .section{
-        min-height:100vh;
-        background-color: #0d1117;
-     }
-`;
 
     return (
         <MainStyled>

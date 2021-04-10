@@ -20,53 +20,56 @@ const Navbar = () => {
 
     window.addEventListener('scroll',changeBackground);
     return (
-            <nav className={navbar ? 'navbar fixed-top navbar-expand-lg false' : 'navbar sticky-top navbar-expand-lg activo border-bottom'}>
-                <div className="container">  
-                    <div className="collapse navbar-collapse justify-content-center " id="navbarNav">
-                        <ul className="navbar-nav p-2">
-                            <li className="nav-item ">
+        <nav className={navbar ? 'navbar navbar-expand-lg fixed-top navbar-dark false' : 'activo navbar navbar-expand-lg fixed-top navbar-dark bg-light'}>
+            <div className="container">  
+                <div className="container text-center">
+                    <div className="collapse navbar-collapse justify-content-center  text-navbar" id="navbarNav">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center text-navbar">
+                            <li className="nav-item">
                                 <Link
-                                activeClass="active"
-                                to="about"
-                                smooth={true}
-                                spy={true}
-                                offset={0}
-                                duration={700}
-                                >
-                                   <span className="neon px-3">About</span>
+                                        activeClass="active"
+                                        to="about"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={0}
+                                        duration={700}
+                                        >
+                                        <span className="neon px-3">About</span>
                                 </Link>
                             </li>
-                            <li className="nav-item ">
-                            <Link
-                                activeClass="active"
-                                to="skills"
-                                smooth={true}
-                                spy={true}
-                                offset={0}
-                                duration={700}
-                                >
-                                    <span className="neon px-3">Skills</span>
+                            <li className="nav-item">
+                                <Link
+                                        activeClass="active"
+                                        to="skills"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={0}
+                                        duration={700}
+                                        >
+                                            <span className="neon px-3">Skills</span>
                                 </Link>
                             </li>
-                            <li className="nav-item ">
-                            <Link
-                                activeClass="active"
-                                to="portfolio"
-                                smooth={true}
-                                spy={true}
-                                offset={0}
-                                duration={700}
-                                >
-                                    <span className="neon px-3">Portfolio</span>
+                            <li className="nav-item">
+                                <Link
+                                        activeClass="active"
+                                        to="portfolio"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={0}
+                                        duration={700}
+                                        >
+                                        <span className="neon px-3">Portfolio</span>
                                 </Link>
                             </li>
                         </ul>
                     </div>
-                    <button className="navbar-toggler p-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-brand neon">Navbar</span>
-                </button>
                 </div>
-            </nav>
+                <div className="nombre d-flex justify-content-end">
+                    <span>Cristian Araya</span>
+                </div>
+
+            </div>
+        </nav>
     )
 }
 
