@@ -11,7 +11,7 @@ const Footer = () => {
 
 
     return (
-        <FooterStyles>
+        <FooterStyles id="contact">
             <div className="container sticky-bottom d-flex justify-content-center">
                 <span>Copyright © 2021: CristianAraya.cl</span>
             </div>

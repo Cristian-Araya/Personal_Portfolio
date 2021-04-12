@@ -1,32 +1,254 @@
-.activo{  
-    background-color: #343a40 !important;
-    height:5em;
+.home-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 9em;
+  height: 9em;
+  fill: white;
+  fill-opacity: 0.5;
+}
+.home-btn:hover {
+  width: 9.3em;
+  height: 9.3em;
+  fill-opacity: 1;
 }
 
-.nombre{
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    color: yellow !important;
-    opacity: 0.7;
-}
-.active{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom-style: solid;
-    border-bottom-color: red;
-}
-.false{
-    background-color: transparent !important;
-    height: 3em;;
+/* --------- Media Queries ----------- */
+
+/* --------- smallest ----------- */
+
+@media (max-width: 575px) {
+  .nav-link {
+    padding-top: 1em;
+  }
+  .padding {
+    padding-top: 2em;
+  }
+  .about {
     color: white;
+    width: 2em;
+    height: 2em;
+    fill: white;
+  }
+  .about:hover {
+    color: red;
+    fill: red;
+    width: 2.3em;
+    height: 2.3em;
+  }
+  .skills {
+    color: white;
+    width: 2em;
+    height: 2em;
+    fill: white;
+  }
+  .skills:hover {
+    color: blue;
+    fill: blue;
+    width: 2.3em;
+    height: 2.3em;
+  }
+  .portfolio {
+    color: white;
+    width: 2em;
+    height: 2em;
+    fill: white;
+  }
+  .portfolio:hover {
+    color: green;
+    fill: green;
+    width: 2.3em;
+    height: 2.3em;
+  }
+  .contact {
+    color: white;
+    width: 2em;
+    height: 2em;
+    fill: white;
+  }
+  .contact:hover {
+    color: yellow;
+    fill: yellow;
+    width: 2.3em;
+    height: 2.3em;
+  }
 }
-.neon{
-    color: #ffead6;
+/* --------- small ----------- */
+@media (min-width: 576px) {
+  .nav-link {
+    padding-top: 1.5em;
+  }
+  .padding {
+    padding-top: 2em;
+  }
+  .about {
+    color: white;
+    width: 3.3em !important;
+    height: 3.3em;
+    fill: white;
+  }
+  .about:hover {
+    color: red;
+    fill: red;
+    width: 3.5em;
+    height: 3.5em;
+  }
+  .skills {
+    color: white;
+    width: 3.3em;
+    height: 3.3em;
+    fill: white;
+  }
+  .skills:hover {
+    color: blue;
+    fill: blue;
+    width: 3.5em;
+    height: 3.5em;
+  }
+  .portfolio {
+    color: white;
+    width: 3.3em;
+    height: 3.3em;
+    fill: white;
+  }
+  .portfolio:hover {
+    color: green;
+    fill: green;
+    width: 3.5em;
+    height: 3.5em;
+  }
+  .contact {
+    color: white;
+    width: 3.3em;
+    height: 3.3em;
+    fill: white;
+  }
+  .contact:hover {
+    color: yellow;
+    fill: yellow;
+    width: 3.5em;
+    height: 3.5em;
+  }
 }
-@media (max-width: 992px){
-    a{
-        padding: 6px;
-    }
-};
 
+/* --------- Medium ----------- */
+@media (min-width: 768px) {
+  .nav-link {
+    padding-top: 2em;
+  }
+  .p-left {
+    padding-left: 2px;
+  }
+  .padding {
+    padding-top: 0;
+  }
+  .about {
+    color: white;
+    width: 3.8em;
+    height: 3.8em;
+    fill: white;
+  }
+  .about:hover {
+    color: red;
+    fill: red;
+    width: 4em;
+    height: 4em;
+  }
+  .skills {
+    color: white;
+    width: 3.8em;
+    height: 3.8em;
+    fill: white;
+  }
+  .skills:hover {
+    color: blue;
+    fill: blue;
+    width: 4em;
+    height: 4em;
+  }
+  .portfolio {
+    color: white;
+    width: 3.8em;
+    height: 3.8em;
+    fill: white;
+  }
+  .portfolio:hover {
+    color: green;
+    fill: green;
+    width: 4em;
+    height: 4em;
+  }
+  .contact {
+    color: white;
+    width: 3.8em;
+    height: 3.8em;
+    fill: white;
+  }
+  .contact:hover {
+    color: yellow;
+    fill: yellow;
+    width: 4em;
+    height: 4em;
+  }
+}
+
+/* --------- normal ----------- */
+@media (min-width: 992px) {
+  .nav-link {
+    padding-top: 0px;
+    padding-right: 10em;
+  }
+  .padding {
+    padding-top: 0;
+  }
+  .about {
+    color: white;
+    width: 3.8em;
+    height: 3.8em;
+    fill: white;
+  }
+  .about:hover {
+    color: red;
+    fill: red;
+    width: 4.2em;
+    height: 4.2em;
+  }
+  .skills {
+    color: white;
+    width: 4em;
+    height: 4em;
+    fill: white;
+  }
+  .skills:hover {
+    color: blue;
+    fill: blue;
+    width: 4.2em;
+    height: 4.2em;
+  }
+  .portfolio {
+    color: white;
+    width: 4em;
+    height: 4em;
+    fill: white;
+  }
+  .portfolio:hover {
+    color: green;
+    fill: green;
+    width: 4.2em;
+    height: 4.2em;
+  }
+  .contact {
+    color: white;
+    width: 4em;
+    height: 4em;
+    fill: white;
+  }
+  .contact:hover {
+    color: yellow;
+    fill: yellow;
+    width: 4.2em;
+    height: 4.2em;
+  }
+  .columna {
+    justify-content: center;
+  }
+}

@@ -10,13 +10,11 @@ const Portfolio = () => {
 
 
     return (
-        <div id="portfolio">
-            <PortfolioStyled>
-                <div className="container">
+            <PortfolioStyled id="portfolio">
+                <div className="container"> 
                     Portfolio
                 </div>
             </PortfolioStyled>
-        </div>
     )
 }
 
