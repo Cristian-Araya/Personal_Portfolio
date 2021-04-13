@@ -20,16 +20,16 @@ const MainPage = () => {
     return (
         <MainStyled>
             <div className="section">
-                <div className="border border-danger">
+                <div >
                     <Home/>
                 </div>
-                <div className="border border-info">
+                <div >
                     <About/>
                 </div> 
-                <div className="border border-warning">
+                <div>
                     <Skills/>
                 </div> 
-                <div className="border border-success">
+                <div>
                     <Portfolio/>
                 </div>
                 <div>

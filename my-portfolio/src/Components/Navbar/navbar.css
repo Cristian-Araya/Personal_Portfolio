@@ -11,6 +11,38 @@
   height: 9.3em;
   fill-opacity: 1;
 }
+.about {
+  color: white;
+  fill: white;
+}
+.about:hover {
+  color: #5252a5;
+  fill: #5252a5;
+}
+.skills {
+  color: white;
+  fill: white;
+}
+.skills:hover {
+  color: #5252a5;
+  fill: #5252a5;
+}
+.portfolio {
+  color: white;
+  fill: white;
+}
+.portfolio:hover {
+  color: #5252a5;
+  fill: #5252a5;
+}
+.contact {
+  color: white;
+  fill: white;
+}
+.contact:hover {
+  color: #5252a5;
+  fill: #5252a5;
+}
 
 /* --------- Media Queries ----------- */
 
@@ -24,50 +56,34 @@
     padding-top: 2em;
   }
   .about {
-    color: white;
     width: 2em;
     height: 2em;
-    fill: white;
   }
   .about:hover {
-    color: red;
-    fill: red;
     width: 2.3em;
     height: 2.3em;
   }
   .skills {
-    color: white;
     width: 2em;
     height: 2em;
-    fill: white;
   }
   .skills:hover {
-    color: blue;
-    fill: blue;
     width: 2.3em;
     height: 2.3em;
   }
   .portfolio {
-    color: white;
     width: 2em;
     height: 2em;
-    fill: white;
   }
   .portfolio:hover {
-    color: green;
-    fill: green;
     width: 2.3em;
     height: 2.3em;
   }
   .contact {
-    color: white;
     width: 2em;
     height: 2em;
-    fill: white;
   }
   .contact:hover {
-    color: yellow;
-    fill: yellow;
     width: 2.3em;
     height: 2.3em;
   }
@@ -81,50 +97,34 @@
     padding-top: 2em;
   }
   .about {
-    color: white;
-    width: 3.3em !important;
+    width: 3.3em;
     height: 3.3em;
-    fill: white;
   }
   .about:hover {
-    color: red;
-    fill: red;
     width: 3.5em;
     height: 3.5em;
   }
   .skills {
-    color: white;
     width: 3.3em;
     height: 3.3em;
-    fill: white;
   }
   .skills:hover {
-    color: blue;
-    fill: blue;
     width: 3.5em;
     height: 3.5em;
   }
   .portfolio {
-    color: white;
     width: 3.3em;
     height: 3.3em;
-    fill: white;
   }
   .portfolio:hover {
-    color: green;
-    fill: green;
     width: 3.5em;
     height: 3.5em;
   }
   .contact {
-    color: white;
     width: 3.3em;
     height: 3.3em;
-    fill: white;
   }
   .contact:hover {
-    color: yellow;
-    fill: yellow;
     width: 3.5em;
     height: 3.5em;
   }
@@ -142,50 +142,34 @@
     padding-top: 0;
   }
   .about {
-    color: white;
     width: 3.8em;
     height: 3.8em;
-    fill: white;
   }
   .about:hover {
-    color: red;
-    fill: red;
     width: 4em;
     height: 4em;
   }
   .skills {
-    color: white;
     width: 3.8em;
     height: 3.8em;
-    fill: white;
   }
   .skills:hover {
-    color: blue;
-    fill: blue;
     width: 4em;
     height: 4em;
   }
   .portfolio {
-    color: white;
     width: 3.8em;
     height: 3.8em;
-    fill: white;
   }
   .portfolio:hover {
-    color: green;
-    fill: green;
     width: 4em;
     height: 4em;
   }
   .contact {
-    color: white;
     width: 3.8em;
     height: 3.8em;
-    fill: white;
   }
   .contact:hover {
-    color: yellow;
-    fill: yellow;
     width: 4em;
     height: 4em;
   }
@@ -201,52 +185,36 @@
     padding-top: 0;
   }
   .about {
-    color: white;
-    width: 3.8em;
-    height: 3.8em;
-    fill: white;
+    width: 4.3em;
+    height: 4.3em;
   }
   .about:hover {
-    color: red;
-    fill: red;
-    width: 4.2em;
-    height: 4.2em;
+    width: 4.8em;
+    height: 4.8em;
   }
   .skills {
-    color: white;
-    width: 4em;
-    height: 4em;
-    fill: white;
+    width: 4.5em;
+    height: 4.5em;
   }
   .skills:hover {
-    color: blue;
-    fill: blue;
-    width: 4.2em;
-    height: 4.2em;
+    width: 5em;
+    height: 5em;
   }
   .portfolio {
-    color: white;
-    width: 4em;
-    height: 4em;
-    fill: white;
+    width: 4.5em;
+    height: 4.5em;
   }
   .portfolio:hover {
-    color: green;
-    fill: green;
-    width: 4.2em;
-    height: 4.2em;
+    width: 5em;
+    height: 5em;
   }
   .contact {
-    color: white;
-    width: 4em;
-    height: 4em;
-    fill: white;
+    width: 4.5em;
+    height: 4.5em;
   }
   .contact:hover {
-    color: yellow;
-    fill: yellow;
-    width: 4.2em;
-    height: 4.2em;
+    width: 5em;
+    height: 5em;
   }
   .columna {
     justify-content: center;
